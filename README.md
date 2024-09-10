@@ -1,7 +1,7 @@
 # MacBook Landing Page 🖥️✨
 A beautifully designed **MacBook landing page** created with **Vite + React**, styled using **Tailwind CSS**, and powered by **React Three Drei** for immersive 3D effects.
 
-## Live Link:  
+## Live Link: https://mac-book-landing-page-eight.vercel.app
 ## Overview 🌟
 
 This project is a single-page website showcasing a MacBook landing page with sleek design and stunning 3D interactions. The goal of this landing page is to provide a modern and engaging experience for potential customers. It leverages the power of **React Three Drei** to incorporate 3D elements smoothly into the page.
