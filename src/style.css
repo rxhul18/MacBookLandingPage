@@ -1,0 +1,63 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+/* url("https://i.pinimg.com/564x/d9/54/87/d95487ffab31b9722b12eaf05709494.jpg" */
+
+.masked {
+    position: relative;
+    background: url("../public/mac.jpg") 
+    no-repeat center center;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    background-size: cover !important;
+    
+}
+
+.glow{
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1),
+               0 0 20px rgba(255, 255, 255, 0.1),
+               0 0 30px rgba(255, 255, 255, 0.1),
+               0 0 40px rgba(0, 191, 255, 0.1), /* Outer glow */
+               0 0 70px rgba(0, 191, 255, 0.1),
+               0 0 100px rgba(0, 191, 255, 0.1);
+}
+/* .masked::before{
+    content: "macbook pro.";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../public/mac.jpeg")no-repeat center center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: cover;
+    filter: blur(40px);
+    opacity: 0.8;
+}
+
+.masked::after{
+    content: "macbook pro.";
+    position: absolute;
+    top: 0; 
+    left: 0%;
+    width: 100%; 
+    height: 100%;
+    background: url("../public/mac.jpeg")
+    no-repeat center center;
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+    background-size: cover;
+    filter: blur (20px);
+    opacity:0.8;
+} */
